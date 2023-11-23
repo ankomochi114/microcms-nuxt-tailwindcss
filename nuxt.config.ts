@@ -12,15 +12,6 @@ export default defineNuxtConfig({
     baseURL: SITE_URL,
     cdnURL: `https://isystk.github.io${SITE_URL}`,
   },
-  build: {
-    postcss: {
-      postcssOptions: {
-        plugins: {
-          tailwindcss: {},
-        },
-      },
-    },
-  },
   tailwindcss: {
     config: {
       content: [],
