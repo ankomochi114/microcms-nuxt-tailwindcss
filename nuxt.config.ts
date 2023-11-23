@@ -12,6 +12,11 @@ export default defineNuxtConfig({
     baseURL: SITE_URL,
     cdnURL: `https://isystk.github.io${SITE_URL}`,
   },
+  nitro: {
+    prerender: {
+      failOnError: false,
+    },
+  },
   tailwindcss: {
     config: {
       content: [],
